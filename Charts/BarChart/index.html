@@ -7,13 +7,15 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {padding: 2rem;}
-    canvas { max-width: 600px; }
+    canvas { max-width: 100%; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2 class="mb-3">Bar Chart Example</h2>
-    <canvas id="randomBarChart"></canvas>
+    <h2 class="mb-3">Bar Chart Examples</h2>
+    <h3 class="mb-3">Randomized Values</h3>
+    <p class="mb-2">You can have any randomized values for bar chart. Here is an example shown a bar chart between 0 to 100.</p>
+    <canvas id="randomBarChart" height="250"></canvas>
   </div>
   <script>
     const labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
